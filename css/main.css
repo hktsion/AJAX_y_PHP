@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;}
+body{
+	background: cadetblue;
+	font-family: 'Poiret One', cursive;
+}
+
+div.container{
+	width: 60%;
+	margin: 35px auto;
+	background: moccasin;
+	padding: 20px;
+	border-top: 30px solid #ff8a00;
+	border-radius: 10px;
+	text-align: center;
+}
+
+div.explicacion, div#contenido{
+	margin: 15px auto;
+	width: 70%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+div.explicacion h3{
+	font-size: 26px;
+	text-shadow: 0px 0px 0px rgba(45, 123, 60, .3);
+	transition: all 300ms ease;
+}
+
+p{font-size: 18px; color:#42424e !important;}
+
+h3 + p{margin-top: 15px;}
+
+p+p{margin-top: 10px;}
+
+div.explicacion h3:hover{text-shadow: 3px 3px 3px rgba(45, 123, 60, .3);}
+
+div.explicacion p{
+	text-align: justify;
+	color: teal;
+	font-weight: 600;
+}
+div.explicacion p:last-child{
+	text-align: center;
+	color: cadetblue !important;
+}
+
+div.salida h2{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+div.salida button{
+	padding: 7px;
+	color: snow;
+	background: #ff8a00;
+	border: 2px solid snow;
+	transition: all 300ms ease;
+}
+
+div.salida button:hover{
+	border: 2px solid floralwhite;
+	color: snow;
+	background: #ff8a00;
+}
+
+#pais{
+	width: 50%;
+	padding: 7px;
+	border: 2px solid #ff8a00;
+	border-radius: 4px;
+}
+#contenido{
+	width: 80% !important;
+	height: 400px;
+	background: floralwhite;
+	border: 2px solid #ff8a00;
+	border-radius: 4px;
+	overflow-y: scroll;
+	color: teal;
+	font-weight: 600;
+	padding: 10px;
+}
+
+.footer{
+	font-weight: 900;
+	text-align:  center;
+	color: whitesmoke !important;}
