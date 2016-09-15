@@ -17,5 +17,10 @@ Y el AJAX dónde está?
 Aún no lo hemos puesto en marcha, ésto son los preparativos.
 Ahora sí....
 
-Creamos un script con una función que va  a recibir el "parámetro GET" (lo que vamos metiendo por teclado).
+/* Función listaPaises*/
+Creamos un script con una función que va  a recibir el "parámetro GET" (lo que vamos metiendo por teclado). Dentro de esta función creamos el objeto Ajax, que es el que se pone en contacto con el servidor para pedir los datos. Con "open" y "send" estamos pidiendo al servidor los datos y con el "onreadystatechange", el servidor nos devuelve los datos, lo único que nos falta es tratarlos con otra función, que en este caso se encuentra en el main.js.
+
+Así de fácil.... o así lo veo yo!
+
+Suerte!
 
